@@ -1,0 +1,223 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoSlabRegular", sans-serif;
+	font-size: 16px;
+	margin:0;
+	padding: 0;
+}
+
+.top-header{
+	background: url('../img/bg.jpg');
+	min-height: 620px;
+	background-size: cover;
+	background-position: center -18px;
+}
+.top-header::after{
+	content: "";
+	background: #fff;
+	height: 5px;
+	width: 100%;
+}
+.top-wrapper{
+	width: 100%;
+	height: 100%;
+	display: table;
+	position: absolute;
+}
+.top-descrip{
+	display: table-row;
+}
+.top-centered{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+}
+.top-text{
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	color:#000000;
+	font-weight: 700;
+	font-size: 20px;
+	border-bottom: 6px solid;
+	border-top: 6px solid;
+}
+.about-you h2{
+	color: #000;
+	text-align: center;
+	position: relative;
+}
+.about-you h4{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.about-you{
+	background-color:#FAFAFA; 
+	color: #888;;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.line{
+	width:160px;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	background: #000;
+}
+.content{
+	margin-top: 60px;
+}
+.person {
+	text-align: center;
+	margin-bottom: 15px; 
+}
+.person img {
+	max-width: 320px;
+	display: inline-block;
+}
+.info span{
+	color: #FF6347;
+}
+.links{
+	max-width: 320px;
+	font-size: 30px;
+	text-align: left;
+	color:#000;
+}
+.links a{
+	color:#FF6347;
+}
+.links a:last-child{
+	color:#FF6347;
+	margin-left:20px;
+}
+.name{
+	color: #000;
+	text-transform: uppercase; 
+}
+.main-text p:first-child { 
+	margin-top: 0px;
+}
+.price-list{
+	text-align: center;
+}
+.price-list h5{
+	margin-top: 5px;
+	margin-bottom: 5px;
+ }
+ .price-list li{
+ 	list-style-type: none;
+ }
+ .price-list ul{
+ 	width: 180px;
+ 	margin:15px auto;
+ 	padding: 0;
+ 	padding-bottom: 15px;
+ 	border-bottom: 2px solid;
+ }
+ .differ div{
+ 	margin: 10px;
+ 	padding-bottom: 40px;
+ 	border-bottom: 2px solid;
+ }
+ .differ div:last-child{
+ 	border:none;
+ }
+ .differ-price{
+ 	color:#000;
+	/*background: #AEA8D3;*/
+	background: url('../img/differ.jpg');
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.differ-price h2,
+.example h2{
+text-align: center;
+}
+
+.differ-price h4{
+text-align: center;
+margin-bottom: 50px;
+}
+.differ-price span{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.example{
+	background: #FAFAFA;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#owl-example .item img{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+.owl-buttons{
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+}
+.button{
+    display: block;
+    float: left;
+    /*background: #A0A18B;*/
+    background: #fff;
+    border: 2px solid #000;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    width: 154px;
+}
+.next-button{
+	margin-left: 16px;
+}
+.main-footer{
+	background: #222;
+	height: 100px;
+	color: #888;
+	position: relative;
+	padding:30px 0;
+}
+.footer-name{
+	position: absolute;
+	float: left;
+	top:10px;
+}
+.footer-links{
+	float: right;
+}
+.main-footer .container{
+
+}
